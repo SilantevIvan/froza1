@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <div className="flex relative bg-white dark:bg-main-dark-bg">
+        <div className="flex relativ dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
             <TooltipComponent></TooltipComponent>
           </div>
